@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.input-and-list-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 20px;
+  padding: 20px;
+
+  min-width: 380px;
+  list-style-type: none;
+  padding-left: 20px;
+}
+.input-element {
+  width: 370px;
+  height: 30px;
+
+  border: 0px none white;
+
+  padding-right: 10px;
+  outline: none;
+}
+.search-logo {
+  height: 30px;
+  margin-right: 10px;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+@media all (max-width: 576px) {
+  .input-and-list-container {
+    width: 100px;
+  }
+}

@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 400px;
+}
+.button-style {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+
+  border: 0px none white;
+}
+.heading {
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: 'roboto';
+  color: #475569;
+}
